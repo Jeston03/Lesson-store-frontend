@@ -1,3 +1,7 @@
+
+// Main application component
+// Manages lessons, cart, sorting, search, and checkout
+
 <script setup>
 import { ref, computed, onMounted } from 'vue'
 import Lessonlist from './Lessonlist.vue'
