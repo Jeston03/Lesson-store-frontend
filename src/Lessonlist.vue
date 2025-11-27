@@ -1,3 +1,5 @@
+<!-- Component for rendering each lesson card -->
+
 <template>
   <div class="page">
     <div class="grid">
