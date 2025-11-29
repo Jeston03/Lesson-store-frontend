@@ -37,3 +37,5 @@ npm run dev
 npm run build
 ```
 ![Screenshot](./screenshot.png)
+## Search Feature
+The app supports search-as-you-type using the backend `/search` route.
