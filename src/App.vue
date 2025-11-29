@@ -7,6 +7,8 @@ import { ref, computed, onMounted } from 'vue'
 import Lessonlist from './Lessonlist.vue'
 
 const API_BASE = "https://lesson-store-backend.onrender.com" // ← your Render URL
+// Base URL for the Express backend hosted on Render
+
 
 // ------------ STATE ------------
 
