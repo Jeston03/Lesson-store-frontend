@@ -348,7 +348,7 @@ onMounted(loadLessons)
 <style scoped>
 .app-shell {
   min-height: 100vh;
-  background: #0f172a;
+  background: #c8ccd6;
   color: #e5e7eb;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
     sans-serif;
@@ -389,7 +389,7 @@ onMounted(loadLessons)
 }
 
 .page-title {
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 .status {
