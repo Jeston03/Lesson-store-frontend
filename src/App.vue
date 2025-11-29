@@ -106,7 +106,7 @@ async function loadLessons () {
     const res = await fetch(`${API_BASE}/lessons`)
     if (!res.ok) throw new Error('HTTP ' + res.status)
     allLessons.value = await res.json()
-    console.log('LESSONS FROM API:', allLessons.value)
+    
   } catch (err) {
     console.error('Error fetching lessons:', err)
     fetchError.value = err.message
